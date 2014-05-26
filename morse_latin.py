@@ -5,9 +5,8 @@ p_morse = input('Entrez du morse à traduire : ')
 lettre = '' # variable lettre qui contiendra temporairement chaque lettre en morse
 traduction = '' # stockera la traduction
 i = 0
-y = 0
 
-if (p_morse[-l] != ' ') : # verifie si le dernier caractere est un espace
+if (p_morse[-1] != ' ') : # verifie si le dernier caractere est un espace
     p_morse += ' '
 
 while (i < len(p_morse)) :
