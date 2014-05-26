@@ -7,6 +7,8 @@ traduction = ''
 i = 0
 y = 0
 
+if (p_morse[-l] != ' ') :
+    p_morse += ' '
 
 while (i < len(p_morse)) :
     y = 0
